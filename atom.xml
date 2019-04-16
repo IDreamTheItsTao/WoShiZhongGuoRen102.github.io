@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2019-04-16T10:31:24.889Z</updated>
+  <updated>2019-04-16T12:52:29.442Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -17,11 +17,35 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>vim设置高量、行号、自动缩进等等</title>
+    <link href="http://yoursite.com/2019/04/16/vim%E8%AE%BE%E7%BD%AE%E9%AB%98%E9%87%8F%E3%80%81%E8%A1%8C%E5%8F%B7%E3%80%81%E8%87%AA%E5%8A%A8%E7%BC%A9%E8%BF%9B%E7%AD%89%E7%AD%89/"/>
+    <id>http://yoursite.com/2019/04/16/vim设置高量、行号、自动缩进等等/</id>
+    <published>2019-04-16T12:52:38.937Z</published>
+    <updated>2019-04-16T12:52:29.442Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;在root目录下创建 .vimrc&lt;br&gt;&lt;img src=&quot;https://upload-images.jianshu.io/upload_images/15578554-e4ad0b30c70effdb.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240&quot; alt&gt;&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="Linux" scheme="http://yoursite.com/categories/Linux/"/>
+    
+    
+      <category term="自动缩进" scheme="http://yoursite.com/tags/%E8%87%AA%E5%8A%A8%E7%BC%A9%E8%BF%9B/"/>
+    
+      <category term="显示行号" scheme="http://yoursite.com/tags/%E6%98%BE%E7%A4%BA%E8%A1%8C%E5%8F%B7/"/>
+    
+      <category term="vim设置" scheme="http://yoursite.com/tags/vim%E8%AE%BE%E7%BD%AE/"/>
+    
+  </entry>
+  
+  <entry>
     <title>Linux - Vim基本使用</title>
     <link href="http://yoursite.com/2019/04/16/Linux%20-%20Vim%E5%9F%BA%E6%9C%AC%E4%BD%BF%E7%94%A8/"/>
     <id>http://yoursite.com/2019/04/16/Linux - Vim基本使用/</id>
     <published>2019-04-16T09:58:01.099Z</published>
-    <updated>2019-04-16T10:31:24.889Z</updated>
+    <updated>2019-04-16T11:48:36.111Z</updated>
     
     <summary type="html">
     
