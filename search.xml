@@ -1,13 +1,60 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title><![CDATA[西比奥尔]]></title>
-    <url>%2F2019%2F04%2F15%2F%E4%BA%8E%E7%A6%BB%E5%88%AB%E4%B9%8B%E6%9C%9D%E6%9D%9F%E8%B5%B7%E7%BA%A6%E5%AE%9A%E4%B9%8B%E8%8A%B1%2F</url>
-    <content type="text"><![CDATA[有一天，你到了人类的世界，不要去爱上一个人，因为，爱上一个人，会让你真正变成孤单一人。送走人间种种别离，送走世间种种变迁，逝者如斯，时光永远不会止步，所以，我们会再度与人萍水相逢，相识相知，一同织下我们的人生。 经为流逝的日月。纬为人们的生业。 为了下一次的别离开始一次新的相遇吧。 是你教会了我：悲痛的事，温柔以对；难过的事，坚强以对。 经纱是那流逝的光阴，四季逡巡，尽染层云。纬纱是这人世的浮沉，举步踏堙，荡漾心灵。妖尔夫的子民，只是一心织下昔日，百年不移，究其一生。 在离别前，竖起约定之花 让誓约的花朵，点缀起离别的早晨。 只要在这里，你就不是孤身一人。昔日织会记下，那些漠然被岁月消磨的记忆，那些不得不别过的人儿，也会在昔日织里，与你执手相看泪眼。 爱上一个人，会让你真正变成孤单一人。]]></content>
+    <title><![CDATA[Linux - Vim基本使用]]></title>
+    <url>%2F2019%2F04%2F16%2FLinux%20-%20Vim%E5%9F%BA%E6%9C%AC%E4%BD%BF%E7%94%A8%2F</url>
+    <content type="text"><![CDATA[启动vim，进入文件所在的目录 vim 文件名 vim的三种模式： 命令模式（按键即代表命令） i 或 a — 编辑模式 # ‘ Esc ‘ 回到命令模式 : 或 / — 末行模式 G - 光标移到文件末尾 500G - 光标移到第500行 gg - 光标移到行首 hjkl - 左下右上（前面可以加数字） Ctrl+y / Ctrl+e - 移动一行 Ctrl+f / Ctrl+b - 翻一页 0 - 光标到行首 $ - 光标到行尾 w - 光标移到下一个单词 dd - 删除光标所在行 100dd - 从光标所在行向下删除100行 dw - 删除一个单词 d0 - 从光标所在的位置删除到行首 d$ - 从光标所在的位置删除到行尾 yy - 复制光标所在行 10yy - 从光标所在行开始复制10行 p - 粘贴 / 5p - 粘贴5遍 u - 撤销 / ctrl+r - 恢复 编辑模式 - 键入内容 ‘ Esc ‘ 回到命令模式 末行模式 - 搜索/配置/执行系统命令 —Enter—&gt; 命令模式set nu - 显示行号 - set nonu syntax on - 显示高亮语法 - syntax off set ts=4 - 修改制表键的空格数 set ruler - 显示光标所在的位置 - set noruler]]></content>
+      <categories>
+        <category>linux</category>
+      </categories>
+      <tags>
+        <tag>vim</tag>
+        <tag>编译器</tag>
+      </tags>
   </entry>
   <entry>
-    <title><![CDATA[艾瑞尔]]></title>
-    <url>%2F2019%2F04%2F15%2F%E5%9C%A8%E7%A6%BB%E5%88%AB%E5%89%8D%EF%BC%8C%E7%AB%96%E8%B5%B7%E7%BA%A6%E5%AE%9A%E4%B9%8B%E8%8A%B1%2F</url>
-    <content type="text"><![CDATA[我无法意识众生的平等，无法观测世间的本性，但至少我可以判断，你是我的我的希比奥尔。 这世间让人离别的,不是时间,而是永远的相望。就像个天使一样，不是不染凡尘的美，而是在凡尘中依旧保持温和的光。可我是…… 只要艾瑞尔还愿意叫我，那怕不是『妈妈』我也愿意，不管叫我甚么名字，这个名字一定…会成为我的名字。是艾瑞尔你…织出了现在的我。]]></content>
+    <title><![CDATA[Linux软件安装&卸载(安装python3.7)]]></title>
+    <url>%2F2019%2F04%2F16%2FLinux%E8%BD%AF%E4%BB%B6%E5%AE%89%E8%A3%85%26%E5%8D%B8%E8%BD%BD(%E5%AE%89%E8%A3%85python3.7)%2F</url>
+    <content type="text"><![CDATA[Linux系统下的软件安装： redhat package manager yellowdog updater modified 包管理工具 - yum / rpm / apt yum search nginx - 从默认的仓库搜索有没有指定的软件 yum install -y nginx - 安装软件 yum remove -y nginx - 卸载软件 yum info nginx - 查看软件相关信息 yum list installed - 查看已经安装的软件 yum update nginx - 更新软件 源代码构建安装 - gcc / makeApache - Web服务器Nginx - Web服务器（HTTP服务器）/ 反向代理服务器 源代码构建安装Python3.7 下载 wget https://www.python.org/ftp/python/3.7.3/Python-3.7.3.tar.xz 解压缩和解归档 xz -d Python-3.7.3.tar.xz tar -xvf Python-3.7.3.tar 补充依赖库(安装python的依赖项) yum -y install zlib-devel bzip2-devel openssl-devel ncurses-devel sqlite-devel readline-devel tk-devel gdbm-devel db4-devel libpcap-devel xz-devel libffi-devel 进入Python源代码目录安装前准备工作 cd Python-3.7.3 ./configure –prefix=/usr/local/python37 –enable-optimizations 构建和安装（大约10min)） make &amp;&amp; make install 注册PATH环境变量 cd ~ vim .bash_profile PATH=…:/usr/local/python37/bin（添加进去） 激活环境变量 source .bash_profile 测试安装是否成功 python3 –version]]></content>
+      <categories>
+        <category>linux</category>
+      </categories>
+      <tags>
+        <tag>安装</tag>
+        <tag>卸载</tag>
+        <tag>python</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[认识Linux]]></title>
+    <url>%2F2019%2F04%2F16%2F%E8%AE%A4%E8%AF%86linux%2F</url>
+    <content type="text"><![CDATA[计算机由硬件和软件构成 计算机硬件的五大部件：运算器、控制器、存储器、输入设备、输出设备 计算机软件：系统软件（操作系统、编译程序）和应用软件 操作系统会负责管理和操作硬件，并提供简单的人机交互的接口 Ken Thompson / Dennis Ritchie —&gt; Unix (1970s) Xerox（施乐） —&gt; GUI / 鼠标 / 以太网1980s — IBM PC Unix —&gt; BSD —&gt; AIX (IBM) Unix —&gt; System V —&gt; Solaris (SUN) Uinx —&gt; System III —&gt; HP-UX (HP) Unix —&gt; BSD —&gt; FreeBSD —&gt; Macintosh (Apple) —&gt; macOS —&gt; iOS / watchOS / tvOS Unix —&gt; Minix (Andrew Tanenbaum) —&gt; Linux (Linus Torvalds) —&gt; Android (Google) Linux发行版本 Redhat Ubuntu — 个人 CentOS — 服务器 — 远程访问 Fedora SUSE Debian 个人操作系统： Windows / macOS 服务器操作系统： 商用Unix / Linux / Windows Server 多用户多任务操作系统]]></content>
+      <categories>
+        <category>linux</category>
+      </categories>
+      <tags>
+        <tag>linux</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[Linux基本操作]]></title>
+    <url>%2F2019%2F04%2F16%2FLinux%E5%9F%BA%E6%9C%AC%E6%93%8D%E4%BD%9C%2F</url>
+    <content type="text"><![CDATA[掌握：基本使用 / 安装和配置服务 / 部署项目 语法： 命令 命令的参数 命令作用的对象 ls -laR .pipcat -n /proc/cpuinfo cat /proc/cpuinfo 提示：command not found - 命令没有找到（该命令无效） Linux常用命令：w / who / whoami / last - 查看登录用户的情况 adduser / passwd - 创建用户 / 修改创建用户的密码 adduser 用戶名 # 添加用戶 passwd 用戶名 # 設置/修改密碼 date / cal - 查看日期日历 date #查看時間 cal # 查看日历(当月) cal 月 年 # 查看指定月份 write / wall / mesg - 发送消息 write 用户名 - 给指定用户发消息 su 用戶名 - 切換用戶clear - 清除屏幕history - 查看历史输入的命令(输入!编号，即重复执行)history -c - 清除历史输入命令记录 man / info / –help - 查看帮助 logout / exit - 退出登录 reboot - 重启系统 - init 6 shutdown - 关机 - init 0 Linux文件操作相关命令：/ - 根目录 pwd - 查看现在所在目录cd - 改变目录(相对路径和绝对路径)cd .. #回到上一级目录 cd 文件夹名称 # 到该文件夹目录下 cd / # 回到根目录 ls - 列出当前目录下所有的文件/文件夹ls -l # 长格式查看 ls -a # 查看所有文件(隐藏文件)以.点开头的文件 ls -R # 递归式的查看 - 遇到文件夹要递归的列出文件夹下的内容 ls -laR # 递归式查看(遇到文件夹要递归的列出该文件下的内容) cat - 连接多个文件（查看文件的内容）touch - 创建空文件或者修改已有文件的最后访问时间touch 文件名 # 创建空文件 mkdir - 创建文件夹mkdir 文件夹名称 # 创建空文件夹 mkdir -p 一级文件夹名称/二级文件夹名称 # 创建父类子类文件夹 rm - 删除rm 文件名 # 删除指定文件 rmdir 文件名 # 删除空文件夹 rm -f 文件名 # 强制删除(慎用) rm -r 文件名 # 递归删除 - 强制删除该文件夹中所有数据(包括文件夹慎用) wget - 通过网络获取文件(cat 文件名 - 查看文件)wget 网址 -o 新名字(如taobao.html) - 重命名获取文件的名字 例如：wget https://www.baidu.com/ - cat index.heml 例如：wget https://www.python.org/ftp/python/3.7.3/Python-3.7.3.tar.xz 例如：wget https://www.python.org/ftp/python/3.7.3/Python-3.7.3.tgz gzip / gunzip - 文件压缩/解压缩（gz/tgz） 例如：gunzip Python-3.7.3.tgz 例如：xz -d Python-3.7.3.xz xz - 文件压缩/解压缩xz -z 文件名 # 压缩 xz -d 文件名称 # 解压缩 tar - 文件归档/解归档例如：tar -xvf Python-3.7.3.tar tar -xvf 文件名称 # 解归档（将一个文件拆成多个文件） tar -cvf 文件名称 # 创建归档文件（压缩，将多个文件合并成一个文件） wc - 查看文件行数、单词数、字符数 wc -l 文件名称 # 查看行数 wc -w 文件名称 # 查看单词数 wc -c 文件名称 # 查看字符数 sort - 文件排序| - 管道，将多个进程连接起来（把前一个命令的输出作为下一个命令的输入）sort -r 文件名称 # 降序（默认是从小到大 - 升序） sort 文件名称 | uniq # 去掉相邻的重复 sort 文件名称1 | uniq &gt; 文件名称2 # sort -r 文件名称1 | uniq &gt; 文件名称2 # uniq 文件名称 - 文件去重（去掉相邻的重复） head / tail - 查看文件的开头/结尾部分 head -10 文件名称 | cat -n # 查看文件内容的前10行 tail -10 文件名称 | cat -n # 查看文件内容的最后10行 more / less - 分页查看文件 cat -n 文件名称 - 查看文件里的所有内容 cat -n 文件名称 | more - 带行号的分页查看 例如：cat -n taobao.html | more diff - 比较文件的差别 diff 文件1 文件2 # 比较不同 &gt; - 输出重定向 &gt;&gt; - 追加输出重定向 2&gt; - 错误输出重定向 2&gt;&gt; - 错误追加输出重定向 cp 文件名称 文件夹地址 - 拷贝文件到指定文件夹目录下 mv 文件名称 文件夹地址 - 移动文件（同一个路径下移动相当于是重命名操作） 给文件添加执行权限chmod u+x,g+x,o+x 文件名 u - user - 当前用户 g - group - 同组用户 o - other - 其他用户 在长格式查看时可以看到文件的权限字符ls -l 文件名 r - read - 读权限 w - write - 写权限 x - execute - 执行权限 组合快捷键：Ctrl+D - 结束输入 Ctrl+C - 中断一个正在执行的命令 Ctrl+W - 删除命令中的一块 Ctrl+A - 光标到行首 Ctrl+E - 光标到行尾 Python - 解释器CPython - C语言实现的Python解释器 Jython - Java语言实现的Python解释器 IronPython - C#语言实现的Python解释器 PyPy - Python语言实现的Python解释器]]></content>
+      <categories>
+        <category>linux</category>
+      </categories>
+      <tags>
+        <tag>linux基本操作</tag>
+        <tag>常用指令</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[西比奥尔]]></title>
+    <url>%2F2019%2F04%2F15%2F%E4%BA%8E%E7%A6%BB%E5%88%AB%E4%B9%8B%E6%9C%9D%E6%9D%9F%E8%B5%B7%E7%BA%A6%E5%AE%9A%E4%B9%8B%E8%8A%B1%2F</url>
+    <content type="text"><![CDATA[我无法意识众生的平等，无法观测世间的本性，但至少我可以判断，你是我的我的希比奥尔。 这世间让人离别的,不是时间,而是永远的相望。就像个天使一样，不是不染凡尘的美，而是在凡尘中依旧保持温和的光。可我是…… 只要艾瑞尔还愿意叫我，那怕不是『妈妈』我也愿意，不管叫我甚么名字，这个名字一定…会成为我的名字。是艾瑞尔你…织出了现在的我。— title: 艾瑞尔 我无法意识众生的平等，无法观测世间的本性，但至少我可以判断，你是我的我的希比奥尔。 这世间让人离别的,不是时间,而是永远的相望。就像个天使一样，不是不染凡尘的美，而是在凡尘中依旧保持温和的光。可我是…… 只要艾瑞尔还愿意叫我，那怕不是『妈妈』我也愿意，不管叫我甚么名字，这个名字一定…会成为我的名字。是艾瑞尔你…织出了现在的我。我无法意识众生的平等，无法观测世间的本性，但至少我可以判断，你是我的我的希比奥尔。 这世间让人离别的,不是时间,而是永远的相望。就像个天使一样，不是不染凡尘的美，而是在凡尘中依旧保持温和的光。可我是…… 只要艾瑞尔还愿意叫我，那怕不是『妈妈』我也愿意，不管叫我甚么名字，这个名字一定…会成为我的名字。是艾瑞尔你…织出了现在的我。 有一天，你到了人类的世界，不要去爱上一个人，因为，爱上一个人，会让你真正变成孤单一人。 送走人间种种别离，送走世间种种变迁，逝者如斯，时光永远不会止步，所以，我们会再度与人萍水相逢，相识相知，一同织下我们的人生。 经为流逝的日月。纬为人们的生业。 为了下一次的别离开始一次新的相遇吧。 是你教会了我：悲痛的事，温柔以对；难过的事，坚强以对。 经纱是那流逝的光阴，四季逡巡，尽染层云。纬纱是这人世的浮沉，举步踏堙，荡漾心灵。妖尔夫的子民，只是一心织下昔日，百年不移，究其一生。 在离别前，竖起约定之花 让誓约的花朵，点缀起离别的早晨。 只要在这里，你就不是孤身一人。昔日织会记下，那些漠然被岁月消磨的记忆，那些不得不别过的人儿，也会在昔日织里，与你执手相看泪眼。 爱上一个人，会让你真正变成孤单一人。]]></content>
+      <tags>
+        <tag>玛奇亚</tag>
+        <tag>艾瑞尔</tag>
+      </tags>
   </entry>
 </search>

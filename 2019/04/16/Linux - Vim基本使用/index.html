@@ -94,17 +94,20 @@
 
 
 
-  <meta name="description" content="究其一生">
-<meta property="og:type" content="website">
-<meta property="og:title" content="关于">
-<meta property="og:url" content="http://yoursite.com/about/index.html">
+  <meta name="description" content="启动vim，进入文件所在的目录  vim 文件名       vim的三种模式： 命令模式（按键即代表命令） i 或 a — 编辑模式  #  ‘ Esc ‘ 回到命令模式 : 或 / — 末行模式 G - 光标移到文件末尾 500G - 光标移到第500行 gg - 光标移到行首 hjkl - 左下右上（前面可以加数字） Ctrl+y / Ctrl+e - 移动一行 Ctrl+f / Ctrl">
+<meta name="keywords" content="vim,编译器">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Linux - Vim基本使用">
+<meta property="og:url" content="http://yoursite.com/2019/04/16/Linux - Vim基本使用/index.html">
 <meta property="og:site_name" content="朝花夕誓">
-<meta property="og:description" content="究其一生">
+<meta property="og:description" content="启动vim，进入文件所在的目录  vim 文件名       vim的三种模式： 命令模式（按键即代表命令） i 或 a — 编辑模式  #  ‘ Esc ‘ 回到命令模式 : 或 / — 末行模式 G - 光标移到文件末尾 500G - 光标移到第500行 gg - 光标移到行首 hjkl - 左下右上（前面可以加数字） Ctrl+y / Ctrl+e - 移动一行 Ctrl+f / Ctrl">
 <meta property="og:locale" content="zh-CN">
-<meta property="og:updated_time" content="2019-04-14T07:35:18.896Z">
+<meta property="og:image" content="https://upload-images.jianshu.io/upload_images/15578554-578e5f6e44780d53.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
+<meta property="og:updated_time" content="2019-04-16T09:57:52.197Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="关于">
-<meta name="twitter:description" content="究其一生">
+<meta name="twitter:title" content="Linux - Vim基本使用">
+<meta name="twitter:description" content="启动vim，进入文件所在的目录  vim 文件名       vim的三种模式： 命令模式（按键即代表命令） i 或 a — 编辑模式  #  ‘ Esc ‘ 回到命令模式 : 或 / — 末行模式 G - 光标移到文件末尾 500G - 光标移到第500行 gg - 光标移到行首 hjkl - 左下右上（前面可以加数字） Ctrl+y / Ctrl+e - 移动一行 Ctrl+f / Ctrl">
+<meta name="twitter:image" content="https://upload-images.jianshu.io/upload_images/15578554-578e5f6e44780d53.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
 
 
 
@@ -114,7 +117,7 @@
 
   
   
-  <link rel="canonical" href="http://yoursite.com/about/">
+  <link rel="canonical" href="http://yoursite.com/2019/04/16/Linux - Vim基本使用/">
 
 
 
@@ -124,7 +127,7 @@
   };
 </script>
 
-  <title>关于 | 朝花夕誓</title>
+  <title>Linux - Vim基本使用 | 朝花夕誓</title>
   
 
 
@@ -321,67 +324,239 @@
           
             
 
-    
-    
-      
-      
-    
-      
-      
-    
-      
-      
-    
-    
-
-  
-
-
           
           <div id="content" class="content">
             
 
   <div id="posts" class="posts-expand">
     
+
+  
+
+  
+  
+  
+
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/04/16/Linux - Vim基本使用/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="贺 & 唐">
+      <meta itemprop="description" content="究其一生">
+      <meta itemprop="image" content="/images/header.jpg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="朝花夕誓">
+    </span>
+
     
-    
-    <div class="post-block page">
       <header class="post-header">
 
-<h1 class="post-title" itemprop="name headline">关于
-
-</h1>
-
-<div class="post-meta">
-  
-  
-
-
-
-</div>
-
-</header>
-
-      
-      
-      
-      <div class="post-body">
         
         
+          <h1 class="post-title" itemprop="name headline">Linux - Vim基本使用
+
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+
+            
+            
+            
+
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+
+              
+                
+              
+
+              <time title="创建时间：2019-04-16 17:58:01 / 修改时间：17:57:52" itemprop="dateCreated datePublished" datetime="2019-04-16T17:58:01+08:00">2019-04-16</time>
+            
+
+            
+              
+
+              
+            
+          </span>
+
           
-        
-      </div>
+            <span class="post-category">
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/linux/" itemprop="url" rel="index"><span itemprop="name">linux</span></a></span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
       
       
+
+      
+        <ol>
+<li><p>启动vim，进入文件所在的目录</p>
+<p> vim 文件名</p>
+<p> <img src="https://upload-images.jianshu.io/upload_images/15578554-578e5f6e44780d53.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt></p>
+</li>
+</ol>
+<hr>
+<ol start="2">
+<li><p>vim的三种模式：</p>
+<h3 id="命令模式（按键即代表命令）"><a href="#命令模式（按键即代表命令）" class="headerlink" title="命令模式（按键即代表命令）"></a>命令模式（按键即代表命令）</h3><p> i 或 a — 编辑模式  #  ‘ Esc ‘ 回到命令模式<br> : 或 / — 末行模式<br> G - 光标移到文件末尾<br> 500G - 光标移到第500行<br> gg - 光标移到行首<br> hjkl - 左下右上（前面可以加数字）<br> Ctrl+y / Ctrl+e - 移动一行<br> Ctrl+f / Ctrl+b - 翻一页<br> 0 - 光标到行首<br> $ - 光标到行尾<br> w - 光标移到下一个单词<br> dd - 删除光标所在行<br> 100dd - 从光标所在行向下删除100行<br> dw - 删除一个单词<br> d0 - 从光标所在的位置删除到行首<br> d$ - 从光标所在的位置删除到行尾<br> yy - 复制光标所在行<br> 10yy - 从光标所在行开始复制10行<br> p - 粘贴 / 5p - 粘贴5遍<br> u - 撤销 / ctrl+r - 恢复</p>
+</li>
+</ol>
+<hr>
+<h3 id="编辑模式-键入内容-‘-Esc-‘-回到命令模式"><a href="#编辑模式-键入内容-‘-Esc-‘-回到命令模式" class="headerlink" title="编辑模式 - 键入内容 ‘ Esc ‘ 回到命令模式"></a>编辑模式 - 键入内容 ‘ Esc ‘ 回到命令模式</h3><hr>
+<h3 id="末行模式-搜索-配置-执行系统命令-—Enter—-gt-命令模式"><a href="#末行模式-搜索-配置-执行系统命令-—Enter—-gt-命令模式" class="headerlink" title="末行模式 - 搜索/配置/执行系统命令 —Enter—&gt; 命令模式"></a>末行模式 - 搜索/配置/执行系统命令 —Enter—&gt; 命令模式</h3><pre><code>set nu - 显示行号 - set nonu
+syntax on - 显示高亮语法 - syntax off
+set ts=4 - 修改制表键的空格数
+set ruler - 显示光标所在的位置 - set noruler
+</code></pre>
       
     </div>
-    
-
-
 
     
+
     
     
+    
+
+    
+
+    
+      
+    
+    
+      <div>
+        <div id="reward-container">
+  <div>坚持原创技术分享，您的支持将鼓励我继续创作！</div>
+  <button id="reward-button" disable="enable" onclick="var qr = document.getElementById(&quot;qr&quot;); qr.style.display = (qr.style.display === 'none') ? 'block' : 'none';">
+    打赏
+  </button>
+  <div id="qr" style="display: none;">
+
+    
+      
+      
+        
+      
+      <div style="display: inline-block">
+        <img src="/images/1.png" alt="贺 & 唐 微信支付">
+        <p>微信支付</p>
+      </div>
+    
+      
+      
+        
+      
+      <div style="display: inline-block">
+        <img src="/images/2.png" alt="贺 & 唐 支付宝">
+        <p>支付宝</p>
+      </div>
+    
+
+  </div>
+</div>
+
+      </div>
+    
+
+    
+
+    <footer class="post-footer">
+      
+        <div class="post-tags">
+          
+            <a href="/tags/vim/" rel="tag"># vim</a>
+          
+            <a href="/tags/编译器/" rel="tag"># 编译器</a>
+          
+        </div>
+      
+
+      
+      
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/2019/04/16/Linux软件安装&卸载(安装python3.7)/" rel="next" title="Linux软件安装&卸载(安装python3.7)">
+                <i class="fa fa-chevron-left"></i> Linux软件安装&卸载(安装python3.7)
+              </a>
+            
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
   </div>
 
 
@@ -410,8 +585,17 @@
       
 
       
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
+            站点概览
+          </li>
+        </ul>
+      
 
-      <div class="site-overview-wrap sidebar-panel sidebar-panel-active">
+      <div class="site-overview-wrap sidebar-panel">
         <div class="site-overview">
           <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
             
@@ -516,6 +700,23 @@
         </div>
       </div>
 
+      
+      <!--noindex-->
+        <div class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+            
+            
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#命令模式（按键即代表命令）"><span class="nav-text">命令模式（按键即代表命令）</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#编辑模式-键入内容-‘-Esc-‘-回到命令模式"><span class="nav-text">编辑模式 - 键入内容 ‘ Esc ‘ 回到命令模式</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#末行模式-搜索-配置-执行系统命令-—Enter—-gt-命令模式"><span class="nav-text">末行模式 - 搜索/配置/执行系统命令 —Enter—&gt; 命令模式</span></a></li></ol></div>
+            
+
+          </div>
+        </div>
+      <!--/noindex-->
       
 
       
