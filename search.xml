@@ -28,7 +28,7 @@
   <entry>
     <title><![CDATA[认识Linux]]></title>
     <url>%2F2019%2F04%2F16%2F%E8%AE%A4%E8%AF%86linux%2F</url>
-    <content type="text"><![CDATA[计算机由硬件和软件构成 计算机硬件的五大部件：运算器、控制器、存储器、输入设备、输出设备 计算机软件：系统软件（操作系统、编译程序）和应用软件 操作系统会负责管理和操作硬件，并提供简单的人机交互的接口 Ken Thompson / Dennis Ritchie —&gt; Unix (1970s) Xerox（施乐） —&gt; GUI / 鼠标 / 以太网1980s — IBM PC Unix —&gt; BSD —&gt; AIX (IBM) Unix —&gt; System V —&gt; Solaris (SUN) Uinx —&gt; System III —&gt; HP-UX (HP) Unix —&gt; BSD —&gt; FreeBSD —&gt; Macintosh (Apple) —&gt; macOS —&gt; iOS / watchOS / tvOS Unix —&gt; Minix (Andrew Tanenbaum) —&gt; Linux (Linus Torvalds) —&gt; Android (Google) Linux发行版本 Redhat Ubuntu — 个人 CentOS — 服务器 — 远程访问 Fedora SUSE Debian 个人操作系统： Windows / macOS 服务器操作系统： 商用Unix / Linux / Windows Server 多用户多任务操作系统]]></content>
+    <content type="text"><![CDATA[计算机由硬件和软件构成 计算机硬件的五大部件：运算器、控制器、存储器、输入设备、输出设备计算机软件：系统软件（操作系统、编译程序）和应用软件 操作系统会负责管理和操作硬件，并提供简单的人机交互的接口 Ken Thompson / Dennis Ritchie —&gt; Unix (1970s) Xerox（施乐） —&gt; GUI / 鼠标 / 以太网1980s — IBM PC Unix —&gt; BSD —&gt; AIX (IBM) Unix —&gt; System V —&gt; Solaris (SUN) Uinx —&gt; System III —&gt; HP-UX (HP) Unix —&gt; BSD —&gt; FreeBSD —&gt; Macintosh (Apple) —&gt; macOS —&gt; iOS / watchOS / tvOS Unix —&gt; Minix (Andrew Tanenbaum) —&gt; Linux (Linus Torvalds) —&gt; Android (Google) Linux发行版本 Redhat Ubuntu — 个人 CentOS — 服务器 — 远程访问 Fedora SUSE Debian 个人操作系统： Windows / macOS 服务器操作系统： 商用Unix / Linux / Windows Server 多用户多任务操作系统]]></content>
       <categories>
         <category>linux</category>
       </categories>
