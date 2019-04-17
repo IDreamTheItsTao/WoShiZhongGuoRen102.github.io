@@ -510,6 +510,32 @@
           
 
           
+            <div class="links-of-author motion-element">
+              
+                <span class="links-of-author-item">
+                  
+                  
+                    
+                  
+                  
+                    
+                  
+                  <a href="https://github.com/WoShiZhongGuoRen102" title="GitHub &rarr; https://github.com/WoShiZhongGuoRen102" rel="noopener" target="_blank"><i class="fa fa-fw fa-Github"></i>GitHub</a>
+                </span>
+              
+                <span class="links-of-author-item">
+                  
+                  
+                    
+                  
+                  
+                    
+                  
+                  <a href="https://www.jianshu.com/u/57dbc2e28eb4" title="简书 &rarr; https://www.jianshu.com/u/57dbc2e28eb4" rel="noopener" target="_blank"><i class="fa fa-fw fa-简书"></i>简书</a>
+                </span>
+              
+            </div>
+          
 
           
 
@@ -623,12 +649,6 @@
 
 
 
-  
-    
-    
-  
-  <script color="0,0,255" opacity="0.5" zindex="-1" count="99" src="/lib/canvas-nest/canvas-nest.min.js"></script>
-
 
 
 
@@ -686,6 +706,36 @@
   
 
   
+  
+
+<script src="//cdn1.lncld.net/static/js/3.11.1/av-min.js"></script>
+
+
+
+<script src="//unpkg.com/valine/dist/Valine.min.js"></script>
+
+<script>
+  var GUEST = ['nick', 'mail', 'link'];
+  var guest = '评论';
+  guest = guest.split(',').filter(function(item) {
+    return GUEST.indexOf(item) > -1;
+  });
+  new Valine({
+    el: '#comments',
+    verify: true,
+    notify: false,
+    appId: 'NJ6ao6eQMHGDSv6vC82bgHHF-gzGzoHsz',
+    appKey: '6EyEvApPlqc87RddFwJhSfEw',
+    placeholder: '这世间让人离别的,不是时间,而是永远的相望。',
+    avatar: 'mm',
+    meta: guest,
+    pageSize: '10' || 10,
+    visitor: true,
+    lang: '' || 'zh-cn'
+  });
+</script>
+
+
 
 
 
