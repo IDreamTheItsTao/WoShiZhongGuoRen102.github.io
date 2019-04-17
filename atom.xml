@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2019-04-16T12:52:29.442Z</updated>
+  <updated>2019-04-17T12:42:34.339Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,52 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>注册环境变量，使python程序可以在任意文件夹下运行</title>
+    <link href="http://yoursite.com/2019/04/17/%E6%B3%A8%E5%86%8C%E7%8E%AF%E5%A2%83%E5%8F%98%E9%87%8F%EF%BC%8C%E4%BD%BFpython%E7%A8%8B%E5%BA%8F%E5%8F%AF%E4%BB%A5%E5%9C%A8%E4%BB%BB%E6%84%8F%E6%96%87%E4%BB%B6%E5%A4%B9%E4%B8%8B%E8%BF%90%E8%A1%8C/"/>
+    <id>http://yoursite.com/2019/04/17/注册环境变量，使python程序可以在任意文件夹下运行/</id>
+    <published>2019-04-17T12:42:51.020Z</published>
+    <updated>2019-04-17T12:42:34.339Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;在root文件夹下 ls -la 查看所有文件&lt;br&gt;&lt;img src=&quot;https://upload-images.jianshu.io/upload_images/15578554-d07b122cfff1d77f.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240&quot; alt&gt;&lt;br&gt;
+    
+    </summary>
+    
+      <category term="Linux" scheme="http://yoursite.com/categories/Linux/"/>
+    
+    
+      <category term="环境变量" scheme="http://yoursite.com/tags/%E7%8E%AF%E5%A2%83%E5%8F%98%E9%87%8F/"/>
+    
+      <category term="全局运行" scheme="http://yoursite.com/tags/%E5%85%A8%E5%B1%80%E8%BF%90%E8%A1%8C/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Linux系统下怎么使用vim编译器写python程序并正常运行</title>
+    <link href="http://yoursite.com/2019/04/17/Linux%E7%B3%BB%E7%BB%9F%E4%B8%8B%E6%80%8E%E4%B9%88%E4%BD%BF%E7%94%A8vim%E7%BC%96%E8%AF%91%E5%99%A8%E5%86%99python%E7%A8%8B%E5%BA%8F%E5%B9%B6%E6%AD%A3%E5%B8%B8%E8%BF%90%E8%A1%8C/"/>
+    <id>http://yoursite.com/2019/04/17/Linux系统下怎么使用vim编译器写python程序并正常运行/</id>
+    <published>2019-04-17T12:35:09.703Z</published>
+    <updated>2019-04-17T12:35:04.558Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;如题：求过道和围墙的造价？&lt;br&gt;&lt;img src=&quot;https://upload-images.jianshu.io/upload_images/15578554-27eb197792eaca30.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240&quot; alt&gt;&lt;br&gt;
+    
+    </summary>
+    
+      <category term="Linux" scheme="http://yoursite.com/categories/Linux/"/>
+    
+    
+      <category term="运行py程序" scheme="http://yoursite.com/tags/%E8%BF%90%E8%A1%8Cpy%E7%A8%8B%E5%BA%8F/"/>
+    
+      <category term="游泳池问题" scheme="http://yoursite.com/tags/%E6%B8%B8%E6%B3%B3%E6%B1%A0%E9%97%AE%E9%A2%98/"/>
+    
+      <category term="加执行权限" scheme="http://yoursite.com/tags/%E5%8A%A0%E6%89%A7%E8%A1%8C%E6%9D%83%E9%99%90/"/>
+    
+  </entry>
   
   <entry>
     <title>vim设置高量、行号、自动缩进等等</title>
