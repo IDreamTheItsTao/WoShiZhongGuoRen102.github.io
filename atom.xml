@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2019-04-17T12:42:34.339Z</updated>
+  <updated>2019-04-17T13:02:32.801Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,52 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>经典python题目1</title>
+    <link href="http://yoursite.com/2019/04/17/%E7%BB%8F%E5%85%B8python%E9%A2%98%E7%9B%AE1/"/>
+    <id>http://yoursite.com/2019/04/17/经典python题目1/</id>
+    <published>2019-04-17T13:02:48.358Z</published>
+    <updated>2019-04-17T13:02:32.801Z</updated>
+    
+    <summary type="html">
+    
+      &lt;h1 id=&quot;五人分鱼&quot;&gt;&lt;a href=&quot;#五人分鱼&quot; class=&quot;headerlink&quot; title=&quot;五人分鱼&quot;&gt;&lt;/a&gt;五人分鱼&lt;/h1&gt;&lt;p&gt;&lt;img src=&quot;https://upload-images.jianshu.io/upload_images/15578554-f873b91195ebc07a.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240&quot; alt&gt;&lt;br&gt;
+    
+    </summary>
+    
+      <category term="Linux" scheme="http://yoursite.com/categories/Linux/"/>
+    
+    
+      <category term="五人分鱼" scheme="http://yoursite.com/tags/%E4%BA%94%E4%BA%BA%E5%88%86%E9%B1%BC/"/>
+    
+      <category term="斐波拉契数优化" scheme="http://yoursite.com/tags/%E6%96%90%E6%B3%A2%E6%8B%89%E5%A5%91%E6%95%B0%E4%BC%98%E5%8C%96/"/>
+    
+      <category term="经典python题" scheme="http://yoursite.com/tags/%E7%BB%8F%E5%85%B8python%E9%A2%98/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>vim宏操作，快速注释多行代码</title>
+    <link href="http://yoursite.com/2019/04/17/vim%E5%AE%8F%E6%93%8D%E4%BD%9C%EF%BC%8C%E5%BF%AB%E9%80%9F%E6%B3%A8%E9%87%8A%E5%A4%9A%E8%A1%8C%E4%BB%A3%E7%A0%81/"/>
+    <id>http://yoursite.com/2019/04/17/vim宏操作，快速注释多行代码/</id>
+    <published>2019-04-17T12:57:23.867Z</published>
+    <updated>2019-04-17T12:57:06.461Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;在命令模式下输入q - a 左下角出现recoding模式&lt;br&gt;&lt;img src=&quot;https://upload-images.jianshu.io/upload_images/15578554-452dc47a4bbd904d.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240&quot; alt&gt;&lt;br&gt;
+    
+    </summary>
+    
+      <category term="Linux" scheme="http://yoursite.com/categories/Linux/"/>
+    
+    
+      <category term="vim宏操作" scheme="http://yoursite.com/tags/vim%E5%AE%8F%E6%93%8D%E4%BD%9C/"/>
+    
+      <category term="快速注释代码" scheme="http://yoursite.com/tags/%E5%BF%AB%E9%80%9F%E6%B3%A8%E9%87%8A%E4%BB%A3%E7%A0%81/"/>
+    
+  </entry>
   
   <entry>
     <title>注册环境变量，使python程序可以在任意文件夹下运行</title>

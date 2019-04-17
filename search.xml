@@ -1,6 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[经典python题目1]]></title>
+    <url>%2F2019%2F04%2F17%2F%E7%BB%8F%E5%85%B8python%E9%A2%98%E7%9B%AE1%2F</url>
+    <content type="text"><![CDATA[五人分鱼 斐波拉契数优化 夏天容易打瞌睡，微信扫一扫lucking coffee送你一杯咖啡喝一喝！]]></content>
+      <categories>
+        <category>Linux</category>
+      </categories>
+      <tags>
+        <tag>五人分鱼</tag>
+        <tag>斐波拉契数优化</tag>
+        <tag>经典python题</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[vim宏操作，快速注释多行代码]]></title>
+    <url>%2F2019%2F04%2F17%2Fvim%E5%AE%8F%E6%93%8D%E4%BD%9C%EF%BC%8C%E5%BF%AB%E9%80%9F%E6%B3%A8%E9%87%8A%E5%A4%9A%E8%A1%8C%E4%BB%A3%E7%A0%81%2F</url>
+    <content type="text"><![CDATA[在命令模式下输入q - a 左下角出现recoding模式 0 回到行首 i 进入编辑模式 井号件# （shift+3）注释改行代码 esc 退出，回到命令模式 j 使光标下移一行 q 停止，左下角不显示recoding模式 回到命令模式下输入数字表示几行 4 @ （shift + 2） a 所输入的行数已经被注释掉 ##夏天容易打瞌睡，微信扫一扫lucking coffee送你一杯咖啡喝一喝！]]></content>
+      <categories>
+        <category>Linux</category>
+      </categories>
+      <tags>
+        <tag>vim宏操作</tag>
+        <tag>快速注释代码</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[注册环境变量，使python程序可以在任意文件夹下运行]]></title>
     <url>%2F2019%2F04%2F17%2F%E6%B3%A8%E5%86%8C%E7%8E%AF%E5%A2%83%E5%8F%98%E9%87%8F%EF%BC%8C%E4%BD%BFpython%E7%A8%8B%E5%BA%8F%E5%8F%AF%E4%BB%A5%E5%9C%A8%E4%BB%BB%E6%84%8F%E6%96%87%E4%BB%B6%E5%A4%B9%E4%B8%8B%E8%BF%90%E8%A1%8C%2F</url>
     <content type="text"><![CDATA[在root文件夹下 ls -la 查看所有文件使用vim打开并编辑.bash_profile，添加完成保存并退出 使用命令刷新它，完成 运行py文件 - 输入文件名称即可 ##夏天容易打瞌睡，微信扫一扫lucking coffee送你一杯咖啡喝一喝！]]></content>
