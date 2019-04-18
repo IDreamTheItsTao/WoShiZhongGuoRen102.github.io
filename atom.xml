@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2019-04-17T13:02:32.801Z</updated>
+  <updated>2019-04-18T11:56:16.930Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -17,11 +17,57 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>经典python题目1</title>
+    <title>Linux安全远程链接</title>
+    <link href="http://yoursite.com/2019/04/18/Linux%E5%AE%89%E5%85%A8%E8%BF%9C%E7%A8%8B%E9%93%BE%E6%8E%A5%E7%9B%B8%E5%85%B3%E6%8C%87%E4%BB%A4/"/>
+    <id>http://yoursite.com/2019/04/18/Linux安全远程链接相关指令/</id>
+    <published>2019-04-18T11:56:24.017Z</published>
+    <updated>2019-04-18T11:56:16.930Z</updated>
+    
+    <summary type="html">
+    
+      &lt;h1 id=&quot;Linux安全远程链接&quot;&gt;&lt;a href=&quot;#Linux安全远程链接&quot; class=&quot;headerlink&quot; title=&quot;Linux安全远程链接&quot;&gt;&lt;/a&gt;Linux安全远程链接&lt;/h1&gt;&lt;p&gt;ssh 用戶名(root)@公网ip地址 - 回车输入yes，输入该用户名的密码即可，exit退回到自己的&lt;br&gt;
+    
+    </summary>
+    
+      <category term="Linux" scheme="http://yoursite.com/categories/Linux/"/>
+    
+    
+      <category term="安全远程链接" scheme="http://yoursite.com/tags/%E5%AE%89%E5%85%A8%E8%BF%9C%E7%A8%8B%E9%93%BE%E6%8E%A5/"/>
+    
+      <category term="重启" scheme="http://yoursite.com/tags/%E9%87%8D%E5%90%AF/"/>
+    
+      <category term="查找" scheme="http://yoursite.com/tags/%E6%9F%A5%E6%89%BE/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>经典python题目&lt;2&gt;</title>
+    <link href="http://yoursite.com/2019/04/18/%E7%BB%8F%E5%85%B8python%E9%A2%98%E7%9B%AE2/"/>
+    <id>http://yoursite.com/2019/04/18/经典python题目2/</id>
+    <published>2019-04-18T11:37:20.534Z</published>
+    <updated>2019-04-18T11:59:13.737Z</updated>
+    
+    <summary type="html">
+    
+      &lt;h1 id=&quot;约瑟夫环-如有冒犯信徒，联系我删除&quot;&gt;&lt;a href=&quot;#约瑟夫环-如有冒犯信徒，联系我删除&quot; class=&quot;headerlink&quot; title=&quot;约瑟夫环(如有冒犯信徒，联系我删除)&quot;&gt;&lt;/a&gt;约瑟夫环(如有冒犯信徒，联系我删除)&lt;/h1&gt;&lt;p&gt;&lt;img src=&quot;https://upload-images.jianshu.io/upload_images/15578554-35c5cd23b50a97e1.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240&quot; alt&gt;&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="Python经典题目" scheme="http://yoursite.com/categories/Python%E7%BB%8F%E5%85%B8%E9%A2%98%E7%9B%AE/"/>
+    
+    
+      <category term="经典python题" scheme="http://yoursite.com/tags/%E7%BB%8F%E5%85%B8python%E9%A2%98/"/>
+    
+      <category term="排序" scheme="http://yoursite.com/tags/%E6%8E%92%E5%BA%8F/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>经典python题目&lt;2&gt;</title>
     <link href="http://yoursite.com/2019/04/17/%E7%BB%8F%E5%85%B8python%E9%A2%98%E7%9B%AE1/"/>
     <id>http://yoursite.com/2019/04/17/经典python题目1/</id>
     <published>2019-04-17T13:02:48.358Z</published>
-    <updated>2019-04-17T13:02:32.801Z</updated>
+    <updated>2019-04-18T11:59:11.803Z</updated>
     
     <summary type="html">
     
@@ -29,7 +75,7 @@
     
     </summary>
     
-      <category term="Linux" scheme="http://yoursite.com/categories/Linux/"/>
+      <category term="Python经典题目" scheme="http://yoursite.com/categories/Python%E7%BB%8F%E5%85%B8%E9%A2%98%E7%9B%AE/"/>
     
     
       <category term="五人分鱼" scheme="http://yoursite.com/tags/%E4%BA%94%E4%BA%BA%E5%88%86%E9%B1%BC/"/>
