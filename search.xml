@@ -1,6 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[经典python题目 - 归并排序法]]></title>
+    <url>%2F2019%2F04%2F19%2F%E7%BB%8F%E5%85%B8python%E9%A2%98%E7%9B%AE3%20-%20%E5%BD%92%E5%B9%B6%E6%8E%92%E5%BA%8F%E6%B3%95%2F</url>
+    <content type="text"><![CDATA[&quot;&quot;&quot; 归并排序法 &quot;&quot;&quot; def merge_sort(items, le=lambda x, y: x &lt;= y): &quot;&quot;&quot;主函数体&quot;&quot;&quot; if len(items) &lt;= 1: return items mid = len(items) // 2 items1 = merge_sort(items[:mid], le) items2 = merge_sort(items[mid:], le) return merge(items1, items2, le) def merge(items1: list, items2: list, le=lambda x, y: x &lt;= y) -&gt; list: &quot;&quot;&quot;将两个有序列表合并为一个新的有序列表&quot;&quot;&quot; items3 = [] index1, index2 = 0, 0 while index1 &lt; len(items1) and index2 &lt; len(items2): if le(items1[index1], items2[index2]): items3.append(items1[index1]) index1 += 1 else: items3.append(items2[index2]) index2 += 1 items3 += items1[index1:] items3 += items2[index2:] return items3 def main(): &quot;&quot;&quot;执行函数&quot;&quot;&quot; items = [35, 12, 99, 18, 57, 66, 43, 32, 90] print(merge_sort(items)) print(items) if __name__ == &apos;__main__&apos;: main() 夏天容易打瞌睡，微信扫一扫lucking coffee送你一杯咖啡喝一喝！]]></content>
+      <categories>
+        <category>Python经典题目</category>
+      </categories>
+      <tags>
+        <tag>经典python题</tag>
+        <tag>归并排序</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[Linux安全远程链接]]></title>
     <url>%2F2019%2F04%2F18%2FLinux%E5%AE%89%E5%85%A8%E8%BF%9C%E7%A8%8B%E9%93%BE%E6%8E%A5%E7%9B%B8%E5%85%B3%E6%8C%87%E4%BB%A4%2F</url>
     <content type="text"><![CDATA[Linux安全远程链接ssh 用戶名(root)@公网ip地址 - 回车输入yes，输入该用户名的密码即可，exit退回到自己的 拷贝单个文件/发送文件 scp 文件路径 用户名@公网ip地址:/需要拷贝到的文件夹路径 拷贝整个文件夹 scp -r 文件夹/ 用户名@公网ip地址:/需要拷贝到的文件夹路径下 网络相关命令： ssh - 安全远程连接 - 例如：ssh root@39.109.190.88 scp - 安全文件拷贝 - 例如：scp -r /root/code root@39.104.170.48:/root/code2 sftp - 安全文件传输（file transfer protocol） - 例如：sftp root@39.104.170.48 put - 上传 get - 下载 bye - 退出 help - 查看帮助 ping - 检查网络可达性 - ICMP - Internet Control Management Protocol - 网络层 ttl - time to live PING TO DEATH - DDoS - Distributed Deny of Service - 分布式拒绝服务攻击 ifconfig / ip 127.0.0.1 - 回环地址 - localhost netstat netstat -nap | grep 进程或者端口 p - process - 查看进程信息（进程编号和进程名字） kill 进程号 启动停止重启服务： service nginx start systemctl start nginx systemctl stop nginx systemctl restart nginx systemctl status nginx systemctl enable nginx systemctl disable nginx 查找命令： grep - 搜索字符串（支持正则表达式） find - 搜索文件 name - 根据名字搜索 - find / -name “*.html” size - 根据大小搜索 - -10M / +10M type - 根据类型搜索 - d / f / l / s atime - 最后访问时间 mtime - 最后修改时间 - find . -mtime 0 ctime - 创建时间 进程操作相关命令： ps - processes kill jobs fg / bg - foreground / background top 夏天容易打瞌睡，微信扫一扫lucking coffee送你一杯咖啡喝一喝！]]></content>
