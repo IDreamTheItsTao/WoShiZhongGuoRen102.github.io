@@ -105,7 +105,7 @@
 <meta property="og:image" content="https://upload-images.jianshu.io/upload_images/15578554-74b233d10aec464e.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
 <meta property="og:image" content="https://upload-images.jianshu.io/upload_images/15578554-1405f371d94ad803.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
 <meta property="og:image" content="https://upload-images.jianshu.io/upload_images/15578554-357e380848be610d.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
-<meta property="og:updated_time" content="2019-04-19T09:48:05.377Z">
+<meta property="og:updated_time" content="2019-04-19T12:44:45.586Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="经典python题目&lt;3&gt; - 归并排序法">
 <meta name="twitter:description" content="&amp;quot;&amp;quot;&amp;quot; 归并排序法 &amp;quot;&amp;quot;&amp;quot;   def merge_sort(items, le=lambda x, y: x &amp;lt;= y):     &amp;quot;&amp;quot;&amp;quot;主函数体&amp;quot;&amp;quot;&amp;quot;     if len(items) &amp;lt;= 1:         return items     mid = l">
@@ -389,7 +389,7 @@
                 
               
 
-              <time title="创建时间：2019-04-19 11:11:07 / 修改时间：17:48:05" itemprop="dateCreated datePublished" datetime="2019-04-19T11:11:07+08:00">2019-04-19</time>
+              <time title="创建时间：2019-04-19 11:11:07 / 修改时间：20:44:45" itemprop="dateCreated datePublished" datetime="2019-04-19T11:11:07+08:00">2019-04-19</time>
             
 
             
@@ -483,9 +483,8 @@ def merge_sort(items, le=lambda x, y: x &lt;= y):
     items1 = merge_sort(items[:mid], le)
     items2 = merge_sort(items[mid:], le)
     return merge(items1, items2, le)
-
-
-def merge(items1: list, items2: list, le=lambda x, y: x &lt;= y) -&gt; list:
+</code></pre><a id="more"></a>    
+<pre><code>def merge(items1: list, items2: list, le=lambda x, y: x &lt;= y) -&gt; list:
     &quot;&quot;&quot;将两个有序列表合并为一个新的有序列表&quot;&quot;&quot;
     items3 = []
     index1, index2 = 0, 0

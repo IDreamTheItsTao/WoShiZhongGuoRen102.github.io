@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2019-04-19T09:48:05.377Z</updated>
+  <updated>2019-04-19T12:44:45.586Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -21,23 +21,24 @@
     <link href="http://yoursite.com/2019/04/19/%E7%BB%8F%E5%85%B8python%E9%A2%98%E7%9B%AE3%20-%20%E5%BD%92%E5%B9%B6%E6%8E%92%E5%BA%8F%E6%B3%95/"/>
     <id>http://yoursite.com/2019/04/19/经典python题目3 - 归并排序法/</id>
     <published>2019-04-19T03:11:07.707Z</published>
-    <updated>2019-04-19T09:48:05.377Z</updated>
+    <updated>2019-04-19T12:44:45.586Z</updated>
     
     <summary type="html">
     
-      
-      
-        
-        
-          &lt;pre&gt;&lt;code&gt;&amp;quot;&amp;quot;&amp;quot;
+      &lt;pre&gt;&lt;code&gt;&amp;quot;&amp;quot;&amp;quot;
 归并排序法
 &amp;quot;&amp;quot;&amp;quot;
 
 
 def merge_sort(items, le=lambda x, y: x &amp;lt;= y):
-   
-        
-      
+    &amp;quot;&amp;quot;&amp;quot;主函数体&amp;quot;&amp;quot;&amp;quot;
+    if len(items) &amp;lt;= 1:
+        return items
+    mid = len(items) // 2
+    items1 = merge_sort(items[:mid], le)
+    items2 = merge_sort(items[mid:], le)
+    return merge(items1, items2, le)
+&lt;/code&gt;&lt;/pre&gt;
     
     </summary>
     
