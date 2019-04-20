@@ -1,6 +1,56 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[Git版本控制的安装和使用]]></title>
+    <url>%2F2019%2F04%2F20%2FGit%E7%89%88%E6%9C%AC%E6%8E%A7%E5%88%B6%E7%9A%84%E5%AE%89%E8%A3%85%E5%92%8C%E4%BD%BF%E7%94%A8%2F</url>
+    <content type="text"><![CDATA[下载：wget https://mirrors.edge.kernel.org/pub/software/scm/git/git-2.21.0.tar.xz 解压缩 xz -d git-2.21.0.tar.xz 解归档 tar -xvf git-2.21.0.tar 进入目录 cd git-2.21.0 补依赖库(必须执行) yum install libcurl-devel 选择路径 ./configure –prefix=/usr/local/ 构建和安装 make &amp;&amp; make install 安装完成，回到用户主目录查看版本 cd ~ git –version Git版本控制使用，进入目录初始化 查看状态 git status 添加所有文件到缓存暂存区 git add . 提交到仓库并附加说明（比如更新了什么功能？） 第一次提交输入 邮箱和用户名 重新提交并查看状态 同步克隆代码到服务器(例如码云平台) git下载 查看克隆下载的文件夹 Git相关命令： git –version git init - 将文件夹初始化为Git仓库 git add - 将工作区的指定文件放入暂存区 git status - 查看工作区和暂存区的状态 git commit -m ‘提交的原因’ - 将暂存区的内容添加到仓库 git log - 查看提交日志（历史提交记录） git checkout – - 将暂存区的文件恢复到工作区 git reset –hard HEAD^ - 回到上一个版本 git reset –hard - 回到指定的版本 git reflog - 查看历史和未来版本 git clone - 克隆代码 git push - 将本地代码推到服务器（将工作成果同步到服务器） git pull - 将服务器更新同步到本地- 夏天容易打瞌睡，微信扫一扫lucking coffee送你一杯咖啡喝一喝！]]></content>
+      <categories>
+        <category>Linux</category>
+      </categories>
+      <tags>
+        <tag>Git</tag>
+        <tag>安装和使用</tag>
+        <tag>版本控制</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[安裝并运行redis高速缓存服务（切勿裸行）]]></title>
+    <url>%2F2019%2F04%2F20%2F%E5%AE%89%E8%A3%9D%E5%B9%B6%E8%BF%90%E8%A1%8Credis%E9%AB%98%E9%80%9F%E7%BC%93%E5%AD%98%E6%9C%8D%E5%8A%A1%EF%BC%88%E5%88%87%E5%8B%BF%E8%A3%B8%E8%A1%8C%EF%BC%89%2F</url>
+    <content type="text"><![CDATA[下载 ：wget http://download.redis.io/releases/redis-5.0.4.tar.gz 解归档 构建安装 查看版本 启动，ctrl + c 结束 放到後台运行 回车，回到主界面查看状态 后台前台运行的切换（Ctrl + z） 结束redis 设置口令密码 夏天容易打瞌睡，微信扫一扫lucking coffee送你一杯咖啡喝一喝！]]></content>
+      <categories>
+        <category>Linux</category>
+      </categories>
+      <tags>
+        <tag>安装</tag>
+        <tag>redis</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[如何安装并连接到MariaDB（MySQL）]]></title>
+    <url>%2F2019%2F04%2F20%2F%E5%A6%82%E4%BD%95%E5%AE%89%E8%A3%85%E5%B9%B6%E8%BF%9E%E6%8E%A5%E5%88%B0MariaDB%EF%BC%88MySQL%EF%BC%89%2F</url>
+    <content type="text"><![CDATA[下载安装 启动 检测是否打开 连接mysql数据库（默认无密码） 修改数据库登录密码 查看 更新，使密码生效 exit退出设置mysql登录密码完成，重新登录并检测是否需要输入密码mysql -u root -p 查看状态/停止mysql 夏天容易打瞌睡，微信扫一扫lucking coffee送你一杯咖啡喝一喝！]]></content>
+      <categories>
+        <category>Linux</category>
+      </categories>
+      <tags>
+        <tag>安装</tag>
+        <tag>MariaDb</tag>
+        <tag>MySQL</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[添加pip豆瓣镜像下载的两种方式]]></title>
+    <url>%2F2019%2F04%2F20%2F%E6%B7%BB%E5%8A%A0pip%E8%B1%86%E7%93%A3%E9%95%9C%E5%83%8F%E4%B8%8B%E8%BD%BD%E7%9A%84%E4%B8%A4%E7%A7%8D%E6%96%B9%E5%BC%8F%2F</url>
+    <content type="text"><![CDATA[普通方式 - 每次下载都需要连接 推荐方式 - 一劳永逸 电脑用户主目录下新建文件夹pip 打开pip文件夹并新建文件pip.ini 在文件中输入：[global]index-url=https://pypi.doubanio.com/simple 保存退出，以后使用pip安装就不用每次连接镜像了 夏天容易打瞌睡，微信扫一扫lucking coffee送你一杯咖啡喝一喝！]]></content>
+      <categories>
+        <category>Linux</category>
+      </categories>
+      <tags>
+        <tag>豆瓣镜像下载</tag>
+        <tag>pip</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[经典python题目 - 归并排序法]]></title>
     <url>%2F2019%2F04%2F19%2F%E7%BB%8F%E5%85%B8python%E9%A2%98%E7%9B%AE3%20-%20%E5%BD%92%E5%B9%B6%E6%8E%92%E5%BA%8F%E6%B3%95%2F</url>
     <content type="text"><![CDATA[&quot;&quot;&quot; 归并排序法 &quot;&quot;&quot; def merge_sort(items, le=lambda x, y: x &lt;= y): &quot;&quot;&quot;主函数体&quot;&quot;&quot; if len(items) &lt;= 1: return items mid = len(items) // 2 items1 = merge_sort(items[:mid], le) items2 = merge_sort(items[mid:], le) return merge(items1, items2, le) def merge(items1: list, items2: list, le=lambda x, y: x &lt;= y) -&gt; list: &quot;&quot;&quot;将两个有序列表合并为一个新的有序列表&quot;&quot;&quot; items3 = [] index1, index2 = 0, 0 while index1 &lt; len(items1) and index2 &lt; len(items2): if le(items1[index1], items2[index2]): items3.append(items1[index1]) index1 += 1 else: items3.append(items2[index2]) index2 += 1 items3 += items1[index1:] items3 += items2[index2:] return items3 def main(): &quot;&quot;&quot;执行函数&quot;&quot;&quot; items = [35, 12, 99, 18, 57, 66, 43, 32, 90] print(merge_sort(items)) print(items) if __name__ == &apos;__main__&apos;: main() 夏天容易打瞌睡，微信扫一扫lucking coffee送你一杯咖啡喝一喝！]]></content>
