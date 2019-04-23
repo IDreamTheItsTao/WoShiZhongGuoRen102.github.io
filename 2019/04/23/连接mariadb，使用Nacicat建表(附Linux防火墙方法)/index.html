@@ -94,32 +94,40 @@
 
 
 
-  <meta name="description" content="下载：wget  https://mirrors.edge.kernel.org/pub/software/scm/git/git-2.21.0.tar.xz">
-<meta name="keywords" content="Git,安装和使用,版本控制">
+  <meta name="description" content="mariadb连接并查看其版本（Ctrl + d - 退出）">
+<meta name="keywords" content="mariadb,Linux防火墙,建表">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Git版本控制的安装和使用">
-<meta property="og:url" content="http://yoursite.com/2019/04/20/Git版本控制的安装和使用/index.html">
+<meta property="og:title" content="连接mariadb，使用Nacicat建表(附Linux防火墙方法)">
+<meta property="og:url" content="http://yoursite.com/2019/04/23/连接mariadb，使用Nacicat建表(附Linux防火墙方法)/index.html">
 <meta property="og:site_name" content="朝花夕誓">
-<meta property="og:description" content="下载：wget  https://mirrors.edge.kernel.org/pub/software/scm/git/git-2.21.0.tar.xz">
+<meta property="og:description" content="mariadb连接并查看其版本（Ctrl + d - 退出）">
 <meta property="og:locale" content="zh-CN">
-<meta property="og:image" content="https://upload-images.jianshu.io/upload_images/15578554-34af0963c4dd633c.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
-<meta property="og:image" content="https://upload-images.jianshu.io/upload_images/15578554-2dfde3387d003b57.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
-<meta property="og:image" content="https://upload-images.jianshu.io/upload_images/15578554-6eb255ec09123e79.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
-<meta property="og:image" content="https://upload-images.jianshu.io/upload_images/15578554-91210e56403bfaa6.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
-<meta property="og:image" content="https://upload-images.jianshu.io/upload_images/15578554-7b29168010a743e5.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
-<meta property="og:image" content="https://upload-images.jianshu.io/upload_images/15578554-12a416ec2f538304.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
-<meta property="og:image" content="https://upload-images.jianshu.io/upload_images/15578554-2b36bde593570109.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
-<meta property="og:image" content="https://upload-images.jianshu.io/upload_images/15578554-6865ac0eb85c214a.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
-<meta property="og:image" content="https://upload-images.jianshu.io/upload_images/15578554-ae045b83b54042b6.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
-<meta property="og:image" content="https://upload-images.jianshu.io/upload_images/15578554-652598c3b8b58fa7.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
-<meta property="og:image" content="https://upload-images.jianshu.io/upload_images/15578554-b0555976d94fa03c.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
+<meta property="og:image" content="https://upload-images.jianshu.io/upload_images/15578554-a30a8aa5fa1402c2.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
+<meta property="og:image" content="https://upload-images.jianshu.io/upload_images/15578554-13b4cdf2851e2ba7.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
+<meta property="og:image" content="https://upload-images.jianshu.io/upload_images/15578554-d068b3997bbf9d7c.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
+<meta property="og:image" content="https://upload-images.jianshu.io/upload_images/15578554-ac9cb76fffc119c1.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
+<meta property="og:image" content="https://upload-images.jianshu.io/upload_images/15578554-2b0a5979d3c73025.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
+<meta property="og:image" content="https://upload-images.jianshu.io/upload_images/15578554-c655b8d4c25ae726.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
+<meta property="og:image" content="https://upload-images.jianshu.io/upload_images/15578554-0c686d85fc2f7ede.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
+<meta property="og:image" content="https://upload-images.jianshu.io/upload_images/15578554-90b4726a2bcac2ef.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
+<meta property="og:image" content="https://upload-images.jianshu.io/upload_images/15578554-0d94535479c99998.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
+<meta property="og:image" content="https://upload-images.jianshu.io/upload_images/15578554-42ff7c6bfd01b0f8.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
+<meta property="og:image" content="https://upload-images.jianshu.io/upload_images/15578554-3563bc36b12023eb.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
+<meta property="og:image" content="https://upload-images.jianshu.io/upload_images/15578554-9199a408a7400d94.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
+<meta property="og:image" content="https://upload-images.jianshu.io/upload_images/15578554-250e16b59b439b12.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
+<meta property="og:image" content="https://upload-images.jianshu.io/upload_images/15578554-ffea0a0136f428c6.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
+<meta property="og:image" content="https://upload-images.jianshu.io/upload_images/15578554-cedfe30ed65592dc.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
+<meta property="og:image" content="https://upload-images.jianshu.io/upload_images/15578554-3e4f9138568f4a4f.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
+<meta property="og:image" content="https://upload-images.jianshu.io/upload_images/15578554-293e047421dabdc7.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
+<meta property="og:image" content="https://upload-images.jianshu.io/upload_images/15578554-bd4f161e9150f776.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
+<meta property="og:image" content="https://upload-images.jianshu.io/upload_images/15578554-debcb59bfc2cfd51.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
 <meta property="og:image" content="https://upload-images.jianshu.io/upload_images/15578554-1405f371d94ad803.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
 <meta property="og:image" content="https://upload-images.jianshu.io/upload_images/15578554-357e380848be610d.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
-<meta property="og:updated_time" content="2019-04-20T08:17:29.991Z">
+<meta property="og:updated_time" content="2019-04-23T12:05:06.940Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Git版本控制的安装和使用">
-<meta name="twitter:description" content="下载：wget  https://mirrors.edge.kernel.org/pub/software/scm/git/git-2.21.0.tar.xz">
-<meta name="twitter:image" content="https://upload-images.jianshu.io/upload_images/15578554-34af0963c4dd633c.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
+<meta name="twitter:title" content="连接mariadb，使用Nacicat建表(附Linux防火墙方法)">
+<meta name="twitter:description" content="mariadb连接并查看其版本（Ctrl + d - 退出）">
+<meta name="twitter:image" content="https://upload-images.jianshu.io/upload_images/15578554-a30a8aa5fa1402c2.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
 
 
 
@@ -129,7 +137,7 @@
 
   
   
-  <link rel="canonical" href="http://yoursite.com/2019/04/20/Git版本控制的安装和使用/">
+  <link rel="canonical" href="http://yoursite.com/2019/04/23/连接mariadb，使用Nacicat建表(附Linux防火墙方法)/">
 
 
 
@@ -139,7 +147,7 @@
   };
 </script>
 
-  <title>Git版本控制的安装和使用 | 朝花夕誓</title>
+  <title>连接mariadb，使用Nacicat建表(附Linux防火墙方法) | 朝花夕誓</title>
   
 
 
@@ -356,7 +364,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/04/20/Git版本控制的安装和使用/">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/04/23/连接mariadb，使用Nacicat建表(附Linux防火墙方法)/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="贺 & 唐">
@@ -373,7 +381,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">Git版本控制的安装和使用
+          <h1 class="post-title" itemprop="name headline">连接mariadb，使用Nacicat建表(附Linux防火墙方法)
 
               
             
@@ -399,7 +407,7 @@
                 
               
 
-              <time title="创建时间：2019-04-20 16:17:39 / 修改时间：16:17:29" itemprop="dateCreated datePublished" datetime="2019-04-20T16:17:39+08:00">2019-04-20</time>
+              <time title="创建时间：2019-04-23 20:06:02 / 修改时间：20:05:06" itemprop="dateCreated datePublished" datetime="2019-04-23T20:06:02+08:00">2019-04-23</time>
             
 
             
@@ -421,7 +429,7 @@
                 <span class="post-meta-item-text">分类于</span>
               
               
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/Linux/" itemprop="url" rel="index"><span itemprop="name">Linux</span></a></span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/数据库/" itemprop="url" rel="index"><span itemprop="name">数据库</span></a></span>
 
                 
                 
@@ -440,8 +448,8 @@
                 </span>
             
                 <span class="post-meta-item-text">评论数：</span>
-                <a href="/2019/04/20/Git版本控制的安装和使用/#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count valine-comment-count" data-xid="/2019/04/20/Git版本控制的安装和使用/" itemprop="commentCount"></span>
+                <a href="/2019/04/23/连接mariadb，使用Nacicat建表(附Linux防火墙方法)/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count valine-comment-count" data-xid="/2019/04/23/连接mariadb，使用Nacicat建表(附Linux防火墙方法)/" itemprop="commentCount"></span>
                 </a>
               </span>
             
@@ -449,7 +457,7 @@
 
           
           
-            <span id="/2019/04/20/Git版本控制的安装和使用/" class="leancloud_visitors" data-flag-title="Git版本控制的安装和使用">
+            <span id="/2019/04/23/连接mariadb，使用Nacicat建表(附Linux防火墙方法)/" class="leancloud_visitors" data-flag-title="连接mariadb，使用Nacicat建表(附Linux防火墙方法)">
               <span class="post-meta-divider">|</span>
               <span class="post-meta-item-icon">
                 <i class="fa fa-eye"></i>
@@ -480,61 +488,52 @@
       
 
       
-        <p>下载：wget  <a href="https://mirrors.edge.kernel.org/pub/software/scm/git/git-2.21.0.tar.xz" target="_blank" rel="noopener">https://mirrors.edge.kernel.org/pub/software/scm/git/git-2.21.0.tar.xz</a><br><a id="more"></a><br><img src="https://upload-images.jianshu.io/upload_images/15578554-34af0963c4dd633c.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt></p>
-<p>解压缩</p>
-<p>xz -d git-2.21.0.tar.xz</p>
-<p>解归档</p>
-<p>tar -xvf git-2.21.0.tar</p>
-<p>进入目录</p>
-<p>cd git-2.21.0</p>
-<p>补依赖库(必须执行)</p>
-<p>yum install libcurl-devel</p>
-<p>选择路径</p>
-<p>./configure –prefix=/usr/local/</p>
-<p>构建和安装</p>
-<p>make &amp;&amp; make install</p>
-<p>安装完成，回到用户主目录查看版本</p>
-<p>cd ~</p>
-<p>git –version</p>
-<p><img src="https://upload-images.jianshu.io/upload_images/15578554-2dfde3387d003b57.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt></p>
+        <p>mariadb连接并查看其版本（Ctrl + d - 退出）</p>
+<p><img src="https://upload-images.jianshu.io/upload_images/15578554-a30a8aa5fa1402c2.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt><br><a id="more"></a><br>创建数据库，创建school并制定字符集为utf8</p>
+<p><img src="https://upload-images.jianshu.io/upload_images/15578554-13b4cdf2851e2ba7.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt></p>
+<p>进入school数据库</p>
+<p><img src="https://upload-images.jianshu.io/upload_images/15578554-d068b3997bbf9d7c.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt></p>
+<p>查看school下的表</p>
+<p><img src="https://upload-images.jianshu.io/upload_images/15578554-ac9cb76fffc119c1.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt></p>
+<p>删除school（如果存在school数据库，则删除，不存在则不操作）</p>
+<p><img src="https://upload-images.jianshu.io/upload_images/15578554-2b0a5979d3c73025.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt></p>
+<p>使用图形化界面工具（Nacicat）连接 - 试用</p>
+<p><img src="https://upload-images.jianshu.io/upload_images/15578554-c655b8d4c25ae726.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt></p>
+<p>输入公网ip，端口，用户名，mariadb的登录密码，连接测试</p>
+<p><img src="https://upload-images.jianshu.io/upload_images/15578554-0c686d85fc2f7ede.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt></p>
+<p><img src="https://upload-images.jianshu.io/upload_images/15578554-90b4726a2bcac2ef.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt></p>
+<p>怎么处理？回到云服务器中的mariadb创建远程连接的用户</p>
+<p><img src="https://upload-images.jianshu.io/upload_images/15578554-0d94535479c99998.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt></p>
+<p>让它生效</p>
+<p><img src="https://upload-images.jianshu.io/upload_images/15578554-42ff7c6bfd01b0f8.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt></p>
+<p>回到navicat</p>
+<p><img src="https://upload-images.jianshu.io/upload_images/15578554-3563bc36b12023eb.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt></p>
+<p><img src="https://upload-images.jianshu.io/upload_images/15578554-9199a408a7400d94.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt></p>
+<p>连接成功，接下来授权，回到云服务器中授权，刷新让它生效</p>
+<p><img src="https://upload-images.jianshu.io/upload_images/15578554-250e16b59b439b12.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt></p>
+<p>回到navicat，断开重连或刷新，连接成功</p>
+<p><img src="https://upload-images.jianshu.io/upload_images/15578554-ffea0a0136f428c6.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt></p>
+<p><img src="https://upload-images.jianshu.io/upload_images/15578554-cedfe30ed65592dc.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt></p>
+<p>按顺序操作创建第一张表</p>
+<p><img src="https://upload-images.jianshu.io/upload_images/15578554-3e4f9138568f4a4f.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt></p>
+<p><img src="https://upload-images.jianshu.io/upload_images/15578554-293e047421dabdc7.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt></p>
 <hr>
-<p>Git版本控制使用，进入目录初始化</p>
-<p><img src="https://upload-images.jianshu.io/upload_images/15578554-6eb255ec09123e79.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt></p>
-<p>查看状态 git status</p>
-<p><img src="https://upload-images.jianshu.io/upload_images/15578554-91210e56403bfaa6.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt></p>
-<p>添加所有文件到缓存暂存区 git add .</p>
-<p><img src="https://upload-images.jianshu.io/upload_images/15578554-7b29168010a743e5.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt></p>
-<p>提交到仓库并附加说明（比如更新了什么功能？）</p>
-<p><img src="https://upload-images.jianshu.io/upload_images/15578554-12a416ec2f538304.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt></p>
-<p>第一次提交输入 邮箱和用户名</p>
-<p><img src="https://upload-images.jianshu.io/upload_images/15578554-2b36bde593570109.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt></p>
-<p>重新提交并查看状态</p>
-<p><img src="https://upload-images.jianshu.io/upload_images/15578554-6865ac0eb85c214a.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt></p>
+<h2 id="DDL"><a href="#DDL" class="headerlink" title="DDL"></a>DDL</h2><p>CREATE ： 创建数据库和表等对象</p>
+<p>DROP ： 删除数据库和表等对象</p>
+<p>ALTER ： 修改数据库和表等对象的结构</p>
+<h2 id="DML"><a href="#DML" class="headerlink" title="DML"></a>DML</h2><p>SELECT ：查询表中的数据</p>
+<p>INSERT ：向表中插入新数据</p>
+<p>UPDATE ：更新表中的数据</p>
+<p>DELETE ：删除表中的数据</p>
+<h2 id="DCL"><a href="#DCL" class="headerlink" title="DCL"></a>DCL</h2><p>COMMIT ： 确认对数据库中的数据进行的变更</p>
+<p>ROLLBACK ： 取消对数据库中的数据进行的变更</p>
+<p>GRANT ： 赋予用户操作权限</p>
+<p>REVOKE ： 取消用户的操作权限</p>
 <hr>
-<p>同步克隆代码到服务器(例如码云平台)</p>
-<p><img src="https://upload-images.jianshu.io/upload_images/15578554-ae045b83b54042b6.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt></p>
-<p>git下载</p>
-<p><img src="https://upload-images.jianshu.io/upload_images/15578554-652598c3b8b58fa7.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt></p>
-<p>查看克隆下载的文件夹</p>
-<p><img src="https://upload-images.jianshu.io/upload_images/15578554-b0555976d94fa03c.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt></p>
-<hr>
-<h3 id="Git相关命令："><a href="#Git相关命令：" class="headerlink" title="Git相关命令："></a>Git相关命令：</h3><ul>
-<li><p>git –version</p>
-</li>
-<li><p>git init - 将文件夹初始化为Git仓库</p>
-</li>
-<li>git add <file> - 将工作区的指定文件放入暂存区</file></li>
-<li>git status - 查看工作区和暂存区的状态</li>
-<li>git commit -m ‘提交的原因’ - 将暂存区的内容添加到仓库</li>
-<li>git log - 查看提交日志（历史提交记录）</li>
-<li>git checkout – <file> - 将暂存区的文件恢复到工作区</file></li>
-<li>git reset –hard HEAD^ - 回到上一个版本</li>
-<li>git reset –hard <id> - 回到指定的版本</id></li>
-<li>git reflog - 查看历史和未来版本</li>
-<li>git clone <url> - 克隆代码</url></li>
-<li>git push - 将本地代码推到服务器（将工作成果同步到服务器）</li>
-<li>git pull - 将服务器更新同步到本地-</li>
-</ul>
+<p>Linux防火墙</p>
+<p><img src="https://upload-images.jianshu.io/upload_images/15578554-bd4f161e9150f776.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt></p>
+<p>关闭防火墙</p>
+<p><img src="https://upload-images.jianshu.io/upload_images/15578554-debcb59bfc2cfd51.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt></p>
 <h2 id="夏天容易打瞌睡，微信扫一扫lucking-coffee送你一杯咖啡喝一喝！"><a href="#夏天容易打瞌睡，微信扫一扫lucking-coffee送你一杯咖啡喝一喝！" class="headerlink" title="夏天容易打瞌睡，微信扫一扫lucking coffee送你一杯咖啡喝一喝！"></a>夏天容易打瞌睡，微信扫一扫lucking coffee送你一杯咖啡喝一喝！</h2><p><img src="https://upload-images.jianshu.io/upload_images/15578554-1405f371d94ad803.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt><img src="https://upload-images.jianshu.io/upload_images/15578554-357e380848be610d.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt></p>
 
       
@@ -598,11 +597,11 @@
       
         <div class="post-tags">
           
-            <a href="/tags/Git/" rel="tag"># Git</a>
+            <a href="/tags/mariadb/" rel="tag"># mariadb</a>
           
-            <a href="/tags/安装和使用/" rel="tag"># 安装和使用</a>
+            <a href="/tags/Linux防火墙/" rel="tag"># Linux防火墙</a>
           
-            <a href="/tags/版本控制/" rel="tag"># 版本控制</a>
+            <a href="/tags/建表/" rel="tag"># 建表</a>
           
         </div>
       
@@ -615,8 +614,8 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/2019/04/20/安裝并运行redis高速缓存服务（切勿裸行）/" rel="next" title="安裝并运行redis高速缓存服务（切勿裸行）">
-                <i class="fa fa-chevron-left"></i> 安裝并运行redis高速缓存服务（切勿裸行）
+              <a href="/2019/04/20/Git版本控制的安装和使用/" rel="next" title="Git版本控制的安装和使用">
+                <i class="fa fa-chevron-left"></i> Git版本控制的安装和使用
               </a>
             
           </div>
@@ -624,10 +623,6 @@
           <span class="post-nav-divider"></span>
 
           <div class="post-nav-prev post-nav-item">
-            
-              <a href="/2019/04/23/连接mariadb，使用Nacicat建表(附Linux防火墙方法)/" rel="prev" title="连接mariadb，使用Nacicat建表(附Linux防火墙方法)">
-                连接mariadb，使用Nacicat建表(附Linux防火墙方法) <i class="fa fa-chevron-right"></i>
-              </a>
             
           </div>
         </div>
@@ -891,7 +886,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#Git相关命令："><span class="nav-text">Git相关命令：</span></a></li></ol><li class="nav-item nav-level-2"><a class="nav-link" href="#夏天容易打瞌睡，微信扫一扫lucking-coffee送你一杯咖啡喝一喝！"><span class="nav-text">夏天容易打瞌睡，微信扫一扫lucking coffee送你一杯咖啡喝一喝！</span></a></li></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#DDL"><span class="nav-text">DDL</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#DML"><span class="nav-text">DML</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#DCL"><span class="nav-text">DCL</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#夏天容易打瞌睡，微信扫一扫lucking-coffee送你一杯咖啡喝一喝！"><span class="nav-text">夏天容易打瞌睡，微信扫一扫lucking coffee送你一杯咖啡喝一喝！</span></a></li></ol></div>
             
 
           </div>

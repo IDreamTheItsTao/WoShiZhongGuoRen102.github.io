@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2019-04-20T08:17:29.991Z</updated>
+  <updated>2019-04-23T12:05:06.940Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>连接mariadb，使用Nacicat建表(附Linux防火墙方法)</title>
+    <link href="http://yoursite.com/2019/04/23/%E8%BF%9E%E6%8E%A5mariadb%EF%BC%8C%E4%BD%BF%E7%94%A8Nacicat%E5%BB%BA%E8%A1%A8(%E9%99%84Linux%E9%98%B2%E7%81%AB%E5%A2%99%E6%96%B9%E6%B3%95)/"/>
+    <id>http://yoursite.com/2019/04/23/连接mariadb，使用Nacicat建表(附Linux防火墙方法)/</id>
+    <published>2019-04-23T12:06:02.506Z</published>
+    <updated>2019-04-23T12:05:06.940Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;mariadb连接并查看其版本（Ctrl + d - 退出）&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://upload-images.jianshu.io/upload_images/15578554-a30a8aa5fa1402c2.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240&quot; alt&gt;&lt;br&gt;
+    
+    </summary>
+    
+      <category term="数据库" scheme="http://yoursite.com/categories/%E6%95%B0%E6%8D%AE%E5%BA%93/"/>
+    
+    
+      <category term="mariadb" scheme="http://yoursite.com/tags/mariadb/"/>
+    
+      <category term="Linux防火墙" scheme="http://yoursite.com/tags/Linux%E9%98%B2%E7%81%AB%E5%A2%99/"/>
+    
+      <category term="建表" scheme="http://yoursite.com/tags/%E5%BB%BA%E8%A1%A8/"/>
+    
+  </entry>
   
   <entry>
     <title>Git版本控制的安装和使用</title>
