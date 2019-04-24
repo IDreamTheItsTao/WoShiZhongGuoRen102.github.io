@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2019-04-23T12:05:06.940Z</updated>
+  <updated>2019-04-24T12:13:36.472Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,30 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>搞定MySQL</title>
+    <link href="http://yoursite.com/2019/04/24/sql01/"/>
+    <id>http://yoursite.com/2019/04/24/sql01/</id>
+    <published>2019-04-24T12:14:23.561Z</published>
+    <updated>2019-04-24T12:13:36.472Z</updated>
+    
+    <summary type="html">
+    
+      &lt;hr&gt;
+&lt;h2 id=&quot;数据库-实现数据持久化以及数据管理&quot;&gt;&lt;a href=&quot;#数据库-实现数据持久化以及数据管理&quot; class=&quot;headerlink&quot; title=&quot;数据库 - 实现数据持久化以及数据管理&quot;&gt;&lt;/a&gt;数据库 - 实现数据持久化以及数据管理&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;持久化 将数据保存到（在掉电情况下）能够长久保存数据的存储介质中&lt;h4 id=&quot;数据库的分类&quot;&gt;&lt;a href=&quot;#数据库的分类&quot; class=&quot;headerlink&quot; title=&quot;数据库的分类&quot;&gt;&lt;/a&gt;数据库的分类&lt;/h4&gt;
+    
+    </summary>
+    
+      <category term="MySQL" scheme="http://yoursite.com/categories/MySQL/"/>
+    
+    
+      <category term="MySQL" scheme="http://yoursite.com/tags/MySQL/"/>
+    
+      <category term="数据库" scheme="http://yoursite.com/tags/%E6%95%B0%E6%8D%AE%E5%BA%93/"/>
+    
+  </entry>
   
   <entry>
     <title>连接mariadb，使用Nacicat建表(附Linux防火墙方法)</title>
